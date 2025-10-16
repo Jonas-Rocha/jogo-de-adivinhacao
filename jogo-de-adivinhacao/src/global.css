@@ -5,29 +5,24 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
-
 
 body {
-  background-color: #f5f5fa ;
-
+  background-color: #f5f5fa;
+  
   font-family: "Noto Sans", serif;
-  font-optical-sizing: auto;
 }
 
-input {
+input, button {
   font-family: "Noto Sans", serif;
-  font-optical-sizing: auto;
 }
 
 button {
- cursor: pointer;
- transition: filter 0.2s;
+  cursor: pointer;
+  transition: filter 0.2s;
 }
 
 button:hover {
   filter: brightness(0.9);
 }
-
-
